@@ -2,7 +2,7 @@ pip install -r requirements.txt
 
 install postgresql 
 sudo su postgres
-CREATEDB commentdb;
+CREATED DATABASE commentdb;
 rename .env.example to .env and use your configration
 python manage.py makemigrations 
 python manage.py migrate

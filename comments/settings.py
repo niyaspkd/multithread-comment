@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'rest_framework_swagger',
     'decouple'
 ]
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
